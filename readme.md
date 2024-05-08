@@ -55,3 +55,25 @@ if (nomeArrey[counter] === cercaElemento) return counter;
 
 ##### Fine
 
+## Snack c:
+- scrivere una funzione `stampa()` che, dato un array in input, restituisca una stringa contenente tutti gli elementi dell'array, separati da una virgola.
+
+### Svolgimento:
+1. definisco un arrey di elementi `listaElementi`;
+2. adopero la stessa funzione `contaElementi()` fatta nel snack a per contare la lunghezza dell'arrey;
+3. definisco la funzione `stampa()` e all'interno itero per la lunghezza dell'arrey con ciclo for:
+```
+for (let i = 0; i<contaElementi(nomeArrey); i++) { ... }
+```
+4. scrivo un'istruzione condizionale per evitare di mettere la virgola nell'ultimo elemento.
+Per tuttti gli elementi tranne l'ultimo aggiungo l'elemto dell'arrey + la virgola, mentre per l'ultomo solo l'elemento senza la virgola:
+```
+if (i < contaElementi(nomeArrey) - 1) {
+           separatore += nomeArrey[i] + ', ';
+        }  else {
+            separatore += nomeArrey[i];
+        }
+```
+5. salvo il risultato in una variabile e mando a schermo.
+
+##### Fine
