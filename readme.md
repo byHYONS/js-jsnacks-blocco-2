@@ -33,3 +33,25 @@ while (true){
 
 ##### Fine
 
+## Snack b:
+- scrivere una funzione `trovaIndice()` che, dati un array e un elemento in input, restituisca la posizione in cui si trova l'elemento all'interno dell'array; 
+- se l'elemento non è presente nell'array, allora la funzione deve restituire -1.
+
+### Svolgimento:
+1. definisco le variabili listaElementi e trovaElemento;
+2. definisco una funzione trovaIndice, con due parametri:
+```
+function trovaElemento(nomeArrey, cercaElemento){ ... }
+```
+3. ciclo fino tutto l'arrey fino ad undefined:
+```
+while (nomeArrey[counter] !== undefined){ ... }
+```
+4. scrivo una istruzione condizionale per individuare l'indice dell'elemento da cercare:
+```
+if (nomeArrey[counter] === cercaElemento) return counter;
+```
+5. salvo il risultato in var e mando a schermo.
+
+##### Fine
+
