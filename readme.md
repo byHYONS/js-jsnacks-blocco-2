@@ -96,4 +96,16 @@ for (let i = 0; i < nomeArrey.length - 1; i++) {
 ##### Fine
 
 ## Snack e:
-- 
+- scrivere una funzione rimuoviDallaTesta() che, dato un array A in input, restituisca un nuovo array B, con tutti gli elementi dell'array A, tranne quello in prima posizione.
+
+### Svolgimento:
+1. definisco arrey con degli elementi al suo interno;
+2. definisco funzione con un parametro nomeArrey;
+3. itero per la lunghezza dell'arrey partendo da + 1:
+```
+for (let i = 1; i<nomeArrey.length; i++){ ... }
+```
+4. aggiungo al nuovo arrey gli elementi tranne il primo;
+5. selvo il risultato in una variabile e mando a schermo.
+
+##### Fine
