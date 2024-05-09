@@ -109,3 +109,18 @@ for (let i = 1; i<nomeArrey.length; i++){ ... }
 5. selvo il risultato in una variabile e mando a schermo.
 
 ##### Fine
+
+## Snack Bonus:
+- scrivere una funzione inserisciInTesta() che, dati un array A e un elemento E in input, resituisca un nuovo array B, con E in prima posizione e a seguire tutti gli elementi di A.
+
+### Svolgimento:
+1. definisco funzione con due parametri, nomeArrey e newItem;
+2. aggiungo al nuovo arrei il nuovo elemento;
+3. itero per la lunghezza dell'arrey:
+```
+newArrey[newArrey.length] = newItem;
+```
+4. aggiungo al nuovo arrey gli elementi dell'arrey listaElementi;
+5. selvo il risultato in una variabile e mando a schermo.
+
+##### FINE
