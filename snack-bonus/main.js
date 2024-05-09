@@ -15,6 +15,7 @@ function inserisciInTesta(nomeArrey, newItem) {
 
   // itero per la lunghezza dell'arrey:
   for (let i = 0; i<nomeArrey.length; i++) {
+    
     // aggiungo al nuovo arrey gli elementi dell'arrey listaElementi:
     console.log(nomeArrey[i])
     console.log(newArrey.length)
