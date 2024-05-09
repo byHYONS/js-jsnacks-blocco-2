@@ -77,3 +77,23 @@ if (i < contaElementi(nomeArrey) - 1) {
 5. salvo il risultato in una variabile e mando a schermo.
 
 ##### Fine
+
+## Snack d:
+- scrivere una funzione rimuoviDallaCoda() che, dato un array A in input, restituisca un nuovo array B, con tutti gli elementi dell'array A, tranne l'ultimo.
+
+### Svolgimento:
+1. definisco arrey con degli elementi al suo interno;
+2. definisco funzione con un parametro nomeArrey;
+3. itero per la lunghezza dell'arrey meno uno;
+4. aggiungo al nuovo arrey gli elementi tranne l'ultimo:
+```
+for (let i = 0; i < nomeArrey.length - 1; i++) {
+    nuovoArrey.push(nomeArrey[i]);
+}
+```
+5. salvo il risultato in una variabile e mando a schermo.
+
+##### Fine
+
+## Snack e:
+- 
